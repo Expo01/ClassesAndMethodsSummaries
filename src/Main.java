@@ -1,5 +1,4 @@
-import java.util.ArrayList;
-import java.util.Arrays;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -67,6 +66,9 @@ public class Main {
         System.out.println(spaces.trim());
         System.out.println(spaces.replace(" ",""));
 
+        Map<Integer,String> derp = new HashMap<>();
+        derp.
+
         /*
         array: .equals(), .toString(), .length --> instance methods
         Arrays: .equals(a,b), .toString() --> static methods
@@ -82,15 +84,14 @@ public class Main {
             substring(sIndex,eIndex) non inclusive end index, isEmpty, contains("stuff"), compareTo, trim, replace(char,char)
             orr "" for removal without replace
 
+
+           LinkedList: addFirst, removeFirst, addLast, removeLast, add, remove, get, set, size, contains, pop,
+            peek() returns head, peekLast() returns tail, push, pop
+
          */
+
     }
 }
-// array
-// String
-// ArrayList
 // Map
-// LinkedList
-// List
-// Binary tree
-/// Integer
-// StringBuildr
+// Integer
+// StringBuilder
