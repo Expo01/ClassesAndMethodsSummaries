@@ -73,30 +73,37 @@ public class Main {
         derp.put(3, "c");
         derp.remove(3);
         System.out.println(derp.get(2));
-        System.out.println(derp.keySet());
-        System.out.println(derp.toString());
+        String answer = (derp.keySet() + "keyset");
+        System.out.println(answer + "answer");
+//        System.out.println(derp.toString());
+//
+//        Map<Integer, String> herp = new HashMap<>();
+//        herp.put(1, "a");
+//        herp.put(2, "b");
+//        System.out.println(derp.equals(herp));
+//        herp.replace(2, "q");
+//        System.out.println(herp.get(2));
 
-        Map<Integer, String> herp = new HashMap<>();
-        herp.put(1, "a");
-        herp.put(2, "b");
-        System.out.println(derp.equals(herp));
-        herp.replace(2, "q");
-        System.out.println(herp.get(2));
 
+//
+//        Integer number = 10;
+//        String ten = number.toString();
+//        System.out.println(ten);
+//        System.out.println(ten.replaceFirst("1", "") + " replaced");
+//
+//        StringBuilder sb = new StringBuilder("hi");
+//        System.out.println(sb);
+//        sb.append("ho");
+//        System.out.println(sb);
+//        sb.deleteCharAt(2);
+//        sb.reverse();
+//        System.out.println(sb.charAt(0));
+//        System.out.println(sb.substring(1, 2));
+//
+//        StringBuilder num = new StringBuilder("10");
+//        int numToInt = (int)num; //can't cast
 
-        Integer number = 10;
-        String ten = number.toString();
-        System.out.println(ten);
-        System.out.println(ten.replaceFirst("1", "") + " replaced");
-
-        StringBuilder sb = new StringBuilder("hi");
-        System.out.println(sb);
-        sb.append("ho");
-        System.out.println(sb);
-        sb.deleteCharAt(2);
-        sb.reverse();
-        System.out.println(sb.charAt(0));
-        System.out.println(sb.substring(1, 2));
+        Integer.
 
 
         /*
@@ -121,7 +128,7 @@ public class Main {
 
             Map: put, remove, get, equals() based on contents, replace, containsKey, containsValue, size, isEmpty, toString, keySet
 
-            Integer: toString
+            Integer: toString, parseInt, max_value, min_value
 
             StringBuilder: append(""), length, deleteCharAt, delete, reverse, charAt, subString, isEmpty
          */
@@ -129,4 +136,4 @@ public class Main {
     }
 }
 
-// StringBuilder
+// StringBuilder.
